@@ -1,0 +1,24 @@
+{
+	"env": {
+		"browser": true,
+		"node": true
+	},
+	"extends": "airbnb-base",
+	"rules": {
+		"comma-dangle": "off",
+		"curly": [
+			"error",
+			"all"
+		],
+		"indent": [
+			"error",
+			"tab"
+		],
+		"linebreak-style": "off",
+		"no-tabs": "off",
+		"object-shorthand": [
+			"error",
+			"methods"
+		]
+	}
+}

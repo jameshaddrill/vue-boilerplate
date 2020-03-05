@@ -1,0 +1,31 @@
+.hello {
+	h1 {
+		color: gray;
+	}
+
+	p {
+		color: pink;
+	}
+
+	a {
+		color: yellow;
+	}
+
+	&__block {
+		padding: 25px;
+		width: 500px;
+		height: 100px;
+	}
+
+	.--blue {
+		background: blue;
+	}
+
+	.--red {
+		background: red;
+	}
+
+	.--green {
+		background: green;
+	}
+}

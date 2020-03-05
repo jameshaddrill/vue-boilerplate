@@ -1,0 +1,17 @@
+{
+    "0": {
+		"title": "Content 1",
+        "text": "First bit of content",
+        "class": "blue"
+    },
+    "1": {
+        "title": "Content 2",
+        "text": "Second bit of content",
+        "class": "red"
+    },
+    "2": {
+        "title": "Content 3",
+        "text": "Third bit of content",
+        "class": "green"
+    }
+}

@@ -1,0 +1,65 @@
+{
+  "name": "fe-webpack-boilerplate-core",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "npm run webpack-with-server -- --hot",
+    "build": "npm run webpack-no-server -- --mode=production",
+    "prerender": "npm run webpack-no-server -- --mode=production --prerender=true",
+    "webpack-with-server": "webpack-dev-server --progress --config ./configs/webpack.config.js",
+    "webpack-no-server": "webpack --progress --config ./configs/webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/amazerealise-fe-group/fe-boilerplate.git"
+  },
+  "author": "AmazeRealise",
+  "bugs": {
+    "url": "https://gitlab.com/amazerealise-fe-group/fe-boilerplate/issues"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "~7.4.4",
+    "@babel/plugin-syntax-dynamic-import": "~7.2.0",
+    "@babel/plugin-transform-runtime": "~7.4.4",
+    "@babel/preset-env": "~7.4.4",
+    "autoprefixer": "~9.5.1",
+    "babel-loader": "~8.0.5",
+    "clean-webpack-plugin": "~2.0.1",
+    "copy-webpack-plugin": "~5.0.3",
+    "css-loader": "~2.1.1",
+    "cssnano": "~4.1.10",
+    "eslint": "~5.16.0",
+    "eslint-config-airbnb-base": "~13.1.0",
+    "eslint-loader": "~2.1.2",
+    "eslint-plugin-import": "~2.17.2",
+    "eslint-plugin-promise": "^4.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "http-server": "^0.11.1",
+    "imagemin-mozjpeg": "~8.0.0",
+    "imagemin-webpack-plugin": "~2.4.2",
+    "mini-css-extract-plugin": "~0.6.0",
+    "node-sass": "~4.12.0",
+    "postcss-loader": "~3.0.0",
+    "prerender-spa-plugin": "^3.4.0",
+    "sass-loader": "~7.1.0",
+    "style-loader": "~0.23.1",
+    "stylelint": "~10.0.1",
+    "stylelint-scss": "~3.6.1",
+    "stylelint-webpack-plugin": "~0.10.5",
+    "vue-loader": "^15.6.2",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.5.22",
+    "webpack": "~4.30.0",
+    "webpack-cli": "~3.3.1",
+    "webpack-dev-server": "~3.3.1",
+    "write-file-webpack-plugin": "^4.5.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "~7.4.5",
+    "vue": "^2.6.10",
+    "vue-head": "^2.1.1",
+    "vue-router": "^3.0.6"
+  }
+}
